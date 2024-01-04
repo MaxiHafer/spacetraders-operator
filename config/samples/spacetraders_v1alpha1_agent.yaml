@@ -1,0 +1,12 @@
+apiVersion: spacetraders.hafer.dev/v1alpha1
+kind: Agent
+metadata:
+  labels:
+    app.kubernetes.io/name: agent
+    app.kubernetes.io/instance: agent-sample
+    app.kubernetes.io/part-of: spacetraders-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: spacetraders-operator
+  name: agent-sample
+spec:
+  # TODO(user): Add fields here
